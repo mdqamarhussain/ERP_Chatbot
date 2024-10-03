@@ -33,6 +33,9 @@ erp_chatbot_project/
 │   └── test_auth.py             # Tests for authentication and user management
 
 ```
+## ER Diagram
+![8w4wJ3xo](https://github.com/user-attachments/assets/b0a1a540-5e25-4b73-ae3b-aef91e7f5570)
+
 
 ## Software Architecture
 
