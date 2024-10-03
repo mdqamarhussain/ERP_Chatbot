@@ -31,10 +31,7 @@ erp_chatbot_project/
 │   ├── test_app.py              # Tests for Flask app
 │   └── test_nlp.py              # Tests for NLP functions
 │   └── test_auth.py             # Tests for authentication and user management
-│
-├── .gitignore                   # Git ignore file
-├── README.md                    # Project documentation
-└── LICENSE                      # License for the project
+
 ```
 
 ## Software Architecture
@@ -80,25 +77,25 @@ The architecture supports scalability, allowing additional features and models t
 
 The contributions of each team member to the ERP Chatbot Project are as follows:
 
-### Md Qamar Hussain (Team Leader)
+### Md Qamar Hussain (Team Leader) (@mdqamarhussain)
 - Led the overall project management and coordination between team members.
 - Designed and implemented the backend Flask application.
 - Developed the NLP service for entity recognition.
 - Managed database integration with MongoDB.
 
-### Faizan Talib Khan
+### Faizan Talib Khan (@FAIZANTKHAN)
 - Developed the frontend using Streamlit, focusing on user interface design.
 - Implemented user authentication and management features.
 - Created the home page and ensured seamless navigation in the application.
 - Conducted testing and debugging of the frontend functionalities.
 
-### Vikram Rajak
+### Vikram Rajak (@Vikram334)
 - Implemented the OCR service using Tesseract for text extraction.
 - Developed the document classification model using Hugging Face.
 - Worked on utility functions for document processing and handling file uploads.
 - Contributed to the testing of the document processing features.
 
-### Gagandeep Singh
+### Gagandeep Singh (@Gagandeepsn)
 - Assisted in the development of the backend application.
 - Implemented the summarization feature using Hugging Face's models.
 - Worked on integrating the NLP services with the frontend.
@@ -161,32 +158,40 @@ Tesseract is required for the OCR functionality. Follow the instructions below b
    ```
 3. Verify the installation by running `tesseract -v` in the terminal.
 
-## Requirements
-
-### Backend Requirements
-
-The `requirements.txt` for the backend includes the following:
-
-```plaintext
-Flask==2.2.3
-Flask-Cors==3.0.10
-pymongo==4.2.0
-pytesseract==0.3.10
-Pillow==9.0.1
-transformers==4.23.1
-torch==1.13.1
-```
-
-### Frontend Requirements
-
-The `requirements.txt` for the frontend includes the following:
-
-```plaintext
-streamlit==1.17.0
-requests==2.28.1
-```
-
 ## Usage
 
-- After starting both the backend and frontend, visit the frontend URL provided by Streamlit to interact with the application.
-- Log in or sign up, upload a document, extract text, perform classification, and download the results in your preferred format.
+To run the **ERP Chatbot Project**, follow these instructions:
+
+### Step 1: Run the Backend
+
+1. Navigate to the `backend` directory:
+   ```bash
+   cd backend
+  
+2. Start the Flask backend server:
+   ```bash
+   python app.py
+   ```
+   The Flask server will start running on `http://127.0.0.1:5000` or another specified port.
+
+### Step 2: Run the Frontend
+
+1. Open a new terminal and navigate to the `frontend` directory:
+   ```bash
+   cd frontend
+   ```
+
+2. Start the Streamlit frontend:
+   ```bash
+   streamlit run app.py
+   ```
+
+   This will launch the frontend interface, accessible via the URL provided by Streamlit (usually `http://localhost:8501`).
+
+### Step 3: Use the Application
+
+1. Open the Streamlit URL in your browser.
+2. Log in or sign up to access the system.
+3. Upload a document (image, PDF, or Word file) to extract text.
+4. Use the provided options to perform tasks like text extraction, entity recognition, summarization, and document classification.
+5. Download the processed results as a PDF or Word document directly from the interface.
