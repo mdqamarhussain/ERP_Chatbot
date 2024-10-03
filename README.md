@@ -80,25 +80,25 @@ The architecture supports scalability, allowing additional features and models t
 
 The contributions of each team member to the ERP Chatbot Project are as follows:
 
-### Md Qamar Hussain (Team Leader) (@mdqamarhussain)
+### [Md Qamar Hussain](https://github.com/mdqamarhussain)  (Team Leader) 
 - Led the overall project management and coordination between team members.
 - Designed and implemented the backend Flask application.
 - Developed the NLP service for entity recognition.
 - Managed database integration with MongoDB.
 
-### Faizan Talib Khan (@FAIZANTKHAN)
+### [Faizan Talib Khan](https://github.com/FAIZANTKHAN)
 - Developed the frontend using Streamlit, focusing on user interface design.
 - Implemented user authentication and management features.
 - Created the home page and ensured seamless navigation in the application.
 - Conducted testing and debugging of the frontend functionalities.
 
-### Vikram Rajak (@Vikram334)
+### [Vikram Rajak](https://github.com/Vikram334)
 - Implemented the OCR service using Tesseract for text extraction.
 - Developed the document classification model using Hugging Face.
 - Worked on utility functions for document processing and handling file uploads.
 - Contributed to the testing of the document processing features.
 
-### Gagandeep Singh (@Gagandeepsn)
+### [Gagandeep Singh](https://github.com/Gagandeepsn)
 - Assisted in the development of the backend application.
 - Implemented the summarization feature using Hugging Face's models.
 - Worked on integrating the NLP services with the frontend.
