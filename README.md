@@ -190,8 +190,3 @@ requests==2.28.1
 
 - After starting both the backend and frontend, visit the frontend URL provided by Streamlit to interact with the application.
 - Log in or sign up, upload a document, extract text, perform classification, and download the results in your preferred format.
-
----
-
-## Video Demonstration
-Watch the working of the ERP Chatbot Project in this video: [ERP Chatbot Project Showcase](https://youtu.be/wtuUElP_WdA)
